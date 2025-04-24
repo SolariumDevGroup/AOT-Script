@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
 ]=]
 
--- Instances: 63 | Scripts: 12 | Modules: 0 | Tags: 0
+-- Instances: 75 | Scripts: 13 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.Altryum Framework V1
@@ -20,7 +20,7 @@ G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 G2L["2"] = Instance.new("Frame", G2L["1"]);
 G2L["2"]["BorderSizePixel"] = 0;
 G2L["2"]["BackgroundColor3"] = Color3.fromRGB(28, 28, 28);
-G2L["2"]["Size"] = UDim2.new(0, 767, 0, 442);
+G2L["2"]["Size"] = UDim2.new(0, 931, 0, 451);
 G2L["2"]["Position"] = UDim2.new(0.16681, 0, 0.19306, 0);
 G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["2"]["Name"] = [[Main UI]];
@@ -45,9 +45,9 @@ G2L["5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["5"]["BackgroundTransparency"] = 1;
-G2L["5"]["Size"] = UDim2.new(0, 494, 0, 49);
+G2L["5"]["Size"] = UDim2.new(0, 468, 0, 49);
 G2L["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["5"]["Text"] = [[Altryum - Framework Space]];
+G2L["5"]["Text"] = [[Altryum - AOT revolution V.2]];
 G2L["5"]["Name"] = [[Title]];
 G2L["5"]["Position"] = UDim2.new(0.25684, 0, 0.01357, 0);
 
@@ -58,7 +58,7 @@ G2L["6"]["ZIndex"] = 0;
 G2L["6"]["BorderSizePixel"] = 0;
 G2L["6"]["BackgroundColor3"] = Color3.fromRGB(175, 10, 221);
 G2L["6"]["Size"] = UDim2.new(0, -6, 0, 368);
-G2L["6"]["Position"] = UDim2.new(0.26467, 0, 0.12443, 0);
+G2L["6"]["Position"] = UDim2.new(0.23781, 0, 0.12443, 0);
 G2L["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["6"]["Name"] = [[Separator]];
 
@@ -115,7 +115,7 @@ G2L["e"]["Active"] = true;
 G2L["e"]["BorderSizePixel"] = 0;
 G2L["e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["e"]["Name"] = [[CategoryButton]];
-G2L["e"]["Size"] = UDim2.new(0, 176, 0, 352);
+G2L["e"]["Size"] = UDim2.new(0, 188, 0, 351);
 G2L["e"]["ScrollBarImageColor3"] = Color3.fromRGB(139, 8, 172);
 G2L["e"]["Position"] = UDim2.new(0.01956, 0, 0.12443, 0);
 G2L["e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
@@ -158,7 +158,7 @@ G2L["12"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["12"]["BackgroundTransparency"] = 1;
 G2L["12"]["Size"] = UDim2.new(0, 165, 0, 45);
 G2L["12"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["12"]["Text"] = [[Category 3]];
+G2L["12"]["Text"] = [[Misc]];
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryButtons.CategoryButton.Category 2
@@ -196,7 +196,7 @@ G2L["16"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["16"]["BackgroundTransparency"] = 1;
 G2L["16"]["Size"] = UDim2.new(0, 165, 0, 45);
 G2L["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["16"]["Text"] = [[Category 2]];
+G2L["16"]["Text"] = [[Visual]];
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryButtons.CategoryButton.Category 1
@@ -234,7 +234,7 @@ G2L["1a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1a"]["BackgroundTransparency"] = 1;
 G2L["1a"]["Size"] = UDim2.new(0, 165, 0, 45);
 G2L["1a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1a"]["Text"] = [[Category 1]];
+G2L["1a"]["Text"] = [[Combat]];
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryButtons.CategoryButton.Category 5
@@ -272,7 +272,7 @@ G2L["1e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["1e"]["BackgroundTransparency"] = 1;
 G2L["1e"]["Size"] = UDim2.new(0, 165, 0, 45);
 G2L["1e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1e"]["Text"] = [[Category 5]];
+G2L["1e"]["Text"] = [[Exploit]];
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryButtons.CategoryButton.Category 4
@@ -310,7 +310,7 @@ G2L["22"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["22"]["BackgroundTransparency"] = 1;
 G2L["22"]["Size"] = UDim2.new(0, 165, 0, 45);
 G2L["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["22"]["Text"] = [[Category 4]];
+G2L["22"]["Text"] = [[Auto]];
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryButtons.CategoryButton.Category 6
@@ -348,7 +348,7 @@ G2L["26"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["26"]["BackgroundTransparency"] = 1;
 G2L["26"]["Size"] = UDim2.new(0, 165, 0, 45);
 G2L["26"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["26"]["Text"] = [[Category 6]];
+G2L["26"]["Text"] = [[Other]];
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality
@@ -362,7 +362,7 @@ G2L["28"]["Active"] = true;
 G2L["28"]["BorderSizePixel"] = 0;
 G2L["28"]["BackgroundColor3"] = Color3.fromRGB(15, 54, 255);
 G2L["28"]["Name"] = [[Category 1]];
-G2L["28"]["Size"] = UDim2.new(0, 524, 0, 352);
+G2L["28"]["Size"] = UDim2.new(0, 627, 0, 368);
 G2L["28"]["ScrollBarImageColor3"] = Color3.fromRGB(139, 8, 172);
 G2L["28"]["Position"] = UDim2.new(0.27771, 0, 0.12443, 0);
 G2L["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
@@ -370,234 +370,345 @@ G2L["28"]["ScrollBarThickness"] = 5;
 G2L["28"]["BackgroundTransparency"] = 0.98;
 
 
--- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.Bubble
-G2L["29"] = Instance.new("Frame", G2L["28"]);
-G2L["29"]["ZIndex"] = 0;
-G2L["29"]["BorderSizePixel"] = 0;
-G2L["29"]["BackgroundColor3"] = Color3.fromRGB(54, 54, 54);
-G2L["29"]["Size"] = UDim2.new(0, 465, 0, 267);
-G2L["29"]["Position"] = UDim2.new(0.02481, 0, 0.01998, 0);
-G2L["29"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["29"]["Name"] = [[Bubble]];
-G2L["29"]["BackgroundTransparency"] = 0.25;
-
-
--- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.Bubble.UICorner
-G2L["2a"] = Instance.new("UICorner", G2L["29"]);
-G2L["2a"]["CornerRadius"] = UDim.new(0, 20);
-
-
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.ToggleSlider
-G2L["2b"] = Instance.new("Frame", G2L["28"]);
-G2L["2b"]["BorderSizePixel"] = 0;
-G2L["2b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2b"]["Size"] = UDim2.new(0, 68, 0, 31);
-G2L["2b"]["Position"] = UDim2.new(0.67366, 0, 0.20612, 0);
-G2L["2b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2b"]["Name"] = [[ToggleSlider]];
-G2L["2b"]["BackgroundTransparency"] = 1;
+G2L["29"] = Instance.new("Frame", G2L["28"]);
+G2L["29"]["BorderSizePixel"] = 0;
+G2L["29"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["29"]["Size"] = UDim2.new(0, 68, 0, 31);
+G2L["29"]["Position"] = UDim2.new(0.67366, 0, 0.20612, 0);
+G2L["29"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["29"]["Name"] = [[ToggleSlider]];
+G2L["29"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.ToggleSlider.Background
-G2L["2c"] = Instance.new("Frame", G2L["2b"]);
-G2L["2c"]["BorderSizePixel"] = 0;
-G2L["2c"]["BackgroundColor3"] = Color3.fromRGB(189, 189, 189);
-G2L["2c"]["Size"] = UDim2.new(0, 68, 0, 31);
-G2L["2c"]["Position"] = UDim2.new(0.41176, 0, -3.90323, 0);
-G2L["2c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2c"]["Name"] = [[Background]];
-G2L["2c"]["BackgroundTransparency"] = 0.05;
+G2L["2a"] = Instance.new("Frame", G2L["29"]);
+G2L["2a"]["BorderSizePixel"] = 0;
+G2L["2a"]["BackgroundColor3"] = Color3.fromRGB(189, 189, 189);
+G2L["2a"]["Size"] = UDim2.new(0, 55, 0, 26);
+G2L["2a"]["Position"] = UDim2.new(-2.01471, 0, -4, 0);
+G2L["2a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2a"]["Name"] = [[Background]];
+G2L["2a"]["BackgroundTransparency"] = 0.05;
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.ToggleSlider.Background.UICorner
-G2L["2d"] = Instance.new("UICorner", G2L["2c"]);
-G2L["2d"]["CornerRadius"] = UDim.new(0, 15);
+G2L["2b"] = Instance.new("UICorner", G2L["2a"]);
+G2L["2b"]["CornerRadius"] = UDim.new(0, 15);
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.ToggleSlider.Background.Circle
-G2L["2e"] = Instance.new("Frame", G2L["2c"]);
-G2L["2e"]["BorderSizePixel"] = 0;
-G2L["2e"]["BackgroundColor3"] = Color3.fromRGB(139, 8, 172);
-G2L["2e"]["Size"] = UDim2.new(0, 38, 0, 38);
-G2L["2e"]["Position"] = UDim2.new(0, -5, -0.13, 0);
-G2L["2e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2e"]["Name"] = [[Circle]];
-G2L["2e"]["BackgroundTransparency"] = 0.05;
+G2L["2c"] = Instance.new("Frame", G2L["2a"]);
+G2L["2c"]["BorderSizePixel"] = 0;
+G2L["2c"]["BackgroundColor3"] = Color3.fromRGB(139, 8, 172);
+G2L["2c"]["Size"] = UDim2.new(0, 30, 0, 30);
+G2L["2c"]["Position"] = UDim2.new(0.12257, -5, -0.09439, 0);
+G2L["2c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2c"]["Name"] = [[Circle]];
+G2L["2c"]["BackgroundTransparency"] = 0.05;
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.ToggleSlider.Background.Circle.UICorner
-G2L["2f"] = Instance.new("UICorner", G2L["2e"]);
-G2L["2f"]["CornerRadius"] = UDim.new(0, 99);
+G2L["2d"] = Instance.new("UICorner", G2L["2c"]);
+G2L["2d"]["CornerRadius"] = UDim.new(0, 99);
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.ToggleSlider.ToggleScript
-G2L["30"] = Instance.new("LocalScript", G2L["2b"]);
-G2L["30"]["Name"] = [[ToggleScript]];
+G2L["2e"] = Instance.new("LocalScript", G2L["29"]);
+G2L["2e"]["Name"] = [[ToggleScript]];
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.ToggleSlider.TextLabel
-G2L["31"] = Instance.new("TextLabel", G2L["2b"]);
-G2L["31"]["BorderSizePixel"] = 0;
-G2L["31"]["TextSize"] = 40;
-G2L["31"]["TextStrokeColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["31"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["31"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["31"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["31"]["BackgroundTransparency"] = 1;
-G2L["31"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["31"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["31"]["Text"] = [[Titans esp]];
-G2L["31"]["Position"] = UDim2.new(-4.25, 0, -4.25806, 0);
+G2L["2f"] = Instance.new("TextLabel", G2L["29"]);
+G2L["2f"]["TextWrapped"] = true;
+G2L["2f"]["BorderSizePixel"] = 0;
+G2L["2f"]["TextSize"] = 40;
+G2L["2f"]["TextStrokeColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2f"]["TextScaled"] = true;
+G2L["2f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["2f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2f"]["BackgroundTransparency"] = 1;
+G2L["2f"]["Size"] = UDim2.new(0, 183, 0, 40);
+G2L["2f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2f"]["Text"] = [[Hitbox Extender]];
+G2L["2f"]["Position"] = UDim2.new(-5.97059, 0, -4.22312, 0);
 
 
--- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.Button
-G2L["32"] = Instance.new("TextButton", G2L["28"]);
-G2L["32"]["BorderSizePixel"] = 0;
-G2L["32"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["32"]["TextSize"] = 30;
-G2L["32"]["BackgroundColor3"] = Color3.fromRGB(139, 8, 172);
-G2L["32"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["32"]["Size"] = UDim2.new(0, 168, 0, 50);
-G2L["32"]["Name"] = [[Button]];
-G2L["32"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["32"]["Position"] = UDim2.new(0.56298, 0, 0.14036, 0);
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.Bubble
+G2L["30"] = Instance.new("Frame", G2L["28"]);
+G2L["30"]["ZIndex"] = 0;
+G2L["30"]["BorderSizePixel"] = 0;
+G2L["30"]["BackgroundColor3"] = Color3.fromRGB(54, 54, 54);
+G2L["30"]["Size"] = UDim2.new(0, 366, 0, 301);
+G2L["30"]["Position"] = UDim2.new(-0.00071, 0, 0.02375, 0);
+G2L["30"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["30"]["Name"] = [[Bubble]];
+G2L["30"]["BackgroundTransparency"] = 0.25;
 
 
--- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.Button.UICorner
-G2L["33"] = Instance.new("UICorner", G2L["32"]);
-G2L["33"]["CornerRadius"] = UDim.new(0, 10);
-
-
--- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.Button.ButtonScript
-G2L["34"] = Instance.new("LocalScript", G2L["32"]);
-G2L["34"]["Name"] = [[ButtonScript]];
-
-
--- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.Button.TextLabel
-G2L["35"] = Instance.new("TextLabel", G2L["32"]);
-G2L["35"]["BorderSizePixel"] = 0;
-G2L["35"]["TextSize"] = 40;
-G2L["35"]["TextStrokeColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["35"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["35"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["35"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["35"]["BackgroundTransparency"] = 1;
-G2L["35"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["35"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["35"]["Text"] = [[Quick Refill]];
-G2L["35"]["Position"] = UDim2.new(-1.37748, 0, 0, 0);
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.Bubble.UICorner
+G2L["31"] = Instance.new("UICorner", G2L["30"]);
+G2L["31"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2
-G2L["36"] = Instance.new("ScrollingFrame", G2L["27"]);
-G2L["36"]["Visible"] = false;
-G2L["36"]["Active"] = true;
+G2L["32"] = Instance.new("ScrollingFrame", G2L["27"]);
+G2L["32"]["Visible"] = false;
+G2L["32"]["Active"] = true;
+G2L["32"]["BorderSizePixel"] = 0;
+G2L["32"]["BackgroundColor3"] = Color3.fromRGB(15, 54, 255);
+G2L["32"]["Name"] = [[Category 2]];
+G2L["32"]["Size"] = UDim2.new(0, 627, 0, 368);
+G2L["32"]["ScrollBarImageColor3"] = Color3.fromRGB(139, 8, 172);
+G2L["32"]["Position"] = UDim2.new(0.27771, 0, 0.12443, 0);
+G2L["32"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["32"]["ScrollBarThickness"] = 5;
+G2L["32"]["BackgroundTransparency"] = 0.98;
+
+
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.ToggleSlider
+G2L["33"] = Instance.new("Frame", G2L["32"]);
+G2L["33"]["BorderSizePixel"] = 0;
+G2L["33"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["33"]["Size"] = UDim2.new(0, 68, 0, 31);
+G2L["33"]["Position"] = UDim2.new(0.674, 0, 0.2, 0);
+G2L["33"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["33"]["Name"] = [[ToggleSlider]];
+G2L["33"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.ToggleSlider.Background
+G2L["34"] = Instance.new("Frame", G2L["33"]);
+G2L["34"]["BorderSizePixel"] = 0;
+G2L["34"]["BackgroundColor3"] = Color3.fromRGB(189, 189, 189);
+G2L["34"]["Size"] = UDim2.new(0, 55, 0, 26);
+G2L["34"]["Position"] = UDim2.new(-2.91177, 0, -2.29032, 0);
+G2L["34"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["34"]["Name"] = [[Background]];
+G2L["34"]["BackgroundTransparency"] = 0.05;
+
+
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.ToggleSlider.Background.UICorner
+G2L["35"] = Instance.new("UICorner", G2L["34"]);
+G2L["35"]["CornerRadius"] = UDim.new(0, 15);
+
+
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.ToggleSlider.Background.Circle
+G2L["36"] = Instance.new("Frame", G2L["34"]);
 G2L["36"]["BorderSizePixel"] = 0;
-G2L["36"]["BackgroundColor3"] = Color3.fromRGB(15, 54, 255);
-G2L["36"]["Name"] = [[Category 2]];
-G2L["36"]["Size"] = UDim2.new(0, 524, 0, 352);
-G2L["36"]["ScrollBarImageColor3"] = Color3.fromRGB(139, 8, 172);
-G2L["36"]["Position"] = UDim2.new(0.27771, 0, 0.12443, 0);
+G2L["36"]["BackgroundColor3"] = Color3.fromRGB(139, 8, 172);
+G2L["36"]["Size"] = UDim2.new(0, 30, 0, 30);
+G2L["36"]["Position"] = UDim2.new(0.08621, -5, -0.09439, 0);
 G2L["36"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["36"]["ScrollBarThickness"] = 5;
-G2L["36"]["BackgroundTransparency"] = 0.98;
+G2L["36"]["Name"] = [[Circle]];
+G2L["36"]["BackgroundTransparency"] = 0.05;
+
+
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.ToggleSlider.Background.Circle.UICorner
+G2L["37"] = Instance.new("UICorner", G2L["36"]);
+G2L["37"]["CornerRadius"] = UDim.new(0, 99);
+
+
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.ToggleSlider.TextLabel
+G2L["38"] = Instance.new("TextLabel", G2L["33"]);
+G2L["38"]["TextWrapped"] = true;
+G2L["38"]["BorderSizePixel"] = 0;
+G2L["38"]["TextSize"] = 40;
+G2L["38"]["TextStrokeColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["38"]["TextScaled"] = true;
+G2L["38"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["38"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["38"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["38"]["BackgroundTransparency"] = 1;
+G2L["38"]["Size"] = UDim2.new(0, 141, 0, 35);
+G2L["38"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["38"]["Text"] = [[Target esp]];
+G2L["38"]["Position"] = UDim2.new(-5.97059, 0, -2.41935, 0);
+
+
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.ToggleSlider.ToggleScript
+G2L["39"] = Instance.new("LocalScript", G2L["33"]);
+G2L["39"]["Name"] = [[ToggleScript]];
+
+
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.ToggleSlider
+G2L["3a"] = Instance.new("Frame", G2L["32"]);
+G2L["3a"]["BorderSizePixel"] = 0;
+G2L["3a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3a"]["Size"] = UDim2.new(0, 68, 0, 31);
+G2L["3a"]["Position"] = UDim2.new(0.67366, 0, 0.20612, 0);
+G2L["3a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3a"]["Name"] = [[ToggleSlider]];
+G2L["3a"]["BackgroundTransparency"] = 1;
+
+
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.ToggleSlider.Background
+G2L["3b"] = Instance.new("Frame", G2L["3a"]);
+G2L["3b"]["BorderSizePixel"] = 0;
+G2L["3b"]["BackgroundColor3"] = Color3.fromRGB(189, 189, 189);
+G2L["3b"]["Size"] = UDim2.new(0, 55, 0, 26);
+G2L["3b"]["Position"] = UDim2.new(-2.94118, 0, -3.90323, 0);
+G2L["3b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3b"]["Name"] = [[Background]];
+G2L["3b"]["BackgroundTransparency"] = 0.05;
+
+
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.ToggleSlider.Background.UICorner
+G2L["3c"] = Instance.new("UICorner", G2L["3b"]);
+G2L["3c"]["CornerRadius"] = UDim.new(0, 15);
+
+
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.ToggleSlider.Background.Circle
+G2L["3d"] = Instance.new("Frame", G2L["3b"]);
+G2L["3d"]["BorderSizePixel"] = 0;
+G2L["3d"]["BackgroundColor3"] = Color3.fromRGB(139, 8, 172);
+G2L["3d"]["Size"] = UDim2.new(0, 30, 0, 30);
+G2L["3d"]["Position"] = UDim2.new(0.12257, -5, -0.09439, 0);
+G2L["3d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3d"]["Name"] = [[Circle]];
+G2L["3d"]["BackgroundTransparency"] = 0.05;
+
+
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.ToggleSlider.Background.Circle.UICorner
+G2L["3e"] = Instance.new("UICorner", G2L["3d"]);
+G2L["3e"]["CornerRadius"] = UDim.new(0, 99);
+
+
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.ToggleSlider.ToggleScript
+G2L["3f"] = Instance.new("LocalScript", G2L["3a"]);
+G2L["3f"]["Name"] = [[ToggleScript]];
+
+
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.ToggleSlider.TextLabel
+G2L["40"] = Instance.new("TextLabel", G2L["3a"]);
+G2L["40"]["TextWrapped"] = true;
+G2L["40"]["BorderSizePixel"] = 0;
+G2L["40"]["TextSize"] = 40;
+G2L["40"]["TextStrokeColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["40"]["TextScaled"] = true;
+G2L["40"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["40"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["40"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["40"]["BackgroundTransparency"] = 1;
+G2L["40"]["Size"] = UDim2.new(0, 141, 0, 35);
+G2L["40"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["40"]["Text"] = [[Titans esp]];
+G2L["40"]["Position"] = UDim2.new(-5.97059, 0, -4.03226, 0);
+
+
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.Bubble
+G2L["41"] = Instance.new("Frame", G2L["32"]);
+G2L["41"]["ZIndex"] = 0;
+G2L["41"]["BorderSizePixel"] = 0;
+G2L["41"]["BackgroundColor3"] = Color3.fromRGB(54, 54, 54);
+G2L["41"]["Size"] = UDim2.new(0, 309, 0, 301);
+G2L["41"]["Position"] = UDim2.new(-0.0023, 0, 0.02792, 0);
+G2L["41"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["41"]["Name"] = [[Bubble]];
+G2L["41"]["BackgroundTransparency"] = 0.25;
+
+
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.Bubble.UICorner
+G2L["42"] = Instance.new("UICorner", G2L["41"]);
+G2L["42"]["CornerRadius"] = UDim.new(0, 20);
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 3
-G2L["37"] = Instance.new("ScrollingFrame", G2L["27"]);
-G2L["37"]["Visible"] = false;
-G2L["37"]["Active"] = true;
-G2L["37"]["BorderSizePixel"] = 0;
-G2L["37"]["BackgroundColor3"] = Color3.fromRGB(15, 54, 255);
-G2L["37"]["Name"] = [[Category 3]];
-G2L["37"]["Size"] = UDim2.new(0, 524, 0, 352);
-G2L["37"]["ScrollBarImageColor3"] = Color3.fromRGB(139, 8, 172);
-G2L["37"]["Position"] = UDim2.new(0.27771, 0, 0.12443, 0);
-G2L["37"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["37"]["ScrollBarThickness"] = 5;
-G2L["37"]["BackgroundTransparency"] = 0.98;
+G2L["43"] = Instance.new("ScrollingFrame", G2L["27"]);
+G2L["43"]["Visible"] = false;
+G2L["43"]["Active"] = true;
+G2L["43"]["BorderSizePixel"] = 0;
+G2L["43"]["BackgroundColor3"] = Color3.fromRGB(15, 54, 255);
+G2L["43"]["Name"] = [[Category 3]];
+G2L["43"]["Size"] = UDim2.new(0, 627, 0, 368);
+G2L["43"]["ScrollBarImageColor3"] = Color3.fromRGB(139, 8, 172);
+G2L["43"]["Position"] = UDim2.new(0.27771, 0, 0.12443, 0);
+G2L["43"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["43"]["ScrollBarThickness"] = 5;
+G2L["43"]["BackgroundTransparency"] = 0.98;
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 4
-G2L["38"] = Instance.new("ScrollingFrame", G2L["27"]);
-G2L["38"]["Visible"] = false;
-G2L["38"]["Active"] = true;
-G2L["38"]["BorderSizePixel"] = 0;
-G2L["38"]["BackgroundColor3"] = Color3.fromRGB(15, 54, 255);
-G2L["38"]["Name"] = [[Category 4]];
-G2L["38"]["Size"] = UDim2.new(0, 524, 0, 352);
-G2L["38"]["ScrollBarImageColor3"] = Color3.fromRGB(139, 8, 172);
-G2L["38"]["Position"] = UDim2.new(0.27771, 0, 0.12443, 0);
-G2L["38"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["38"]["ScrollBarThickness"] = 5;
-G2L["38"]["BackgroundTransparency"] = 0.98;
+G2L["44"] = Instance.new("ScrollingFrame", G2L["27"]);
+G2L["44"]["Visible"] = false;
+G2L["44"]["Active"] = true;
+G2L["44"]["BorderSizePixel"] = 0;
+G2L["44"]["BackgroundColor3"] = Color3.fromRGB(15, 54, 255);
+G2L["44"]["Name"] = [[Category 4]];
+G2L["44"]["Size"] = UDim2.new(0, 627, 0, 368);
+G2L["44"]["ScrollBarImageColor3"] = Color3.fromRGB(139, 8, 172);
+G2L["44"]["Position"] = UDim2.new(0.27771, 0, 0.12443, 0);
+G2L["44"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["44"]["ScrollBarThickness"] = 5;
+G2L["44"]["BackgroundTransparency"] = 0.98;
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 5
-G2L["39"] = Instance.new("ScrollingFrame", G2L["27"]);
-G2L["39"]["Visible"] = false;
-G2L["39"]["Active"] = true;
-G2L["39"]["BorderSizePixel"] = 0;
-G2L["39"]["BackgroundColor3"] = Color3.fromRGB(15, 54, 255);
-G2L["39"]["Name"] = [[Category 5]];
-G2L["39"]["Size"] = UDim2.new(0, 524, 0, 352);
-G2L["39"]["ScrollBarImageColor3"] = Color3.fromRGB(139, 8, 172);
-G2L["39"]["Position"] = UDim2.new(0.27771, 0, 0.12443, 0);
-G2L["39"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["39"]["ScrollBarThickness"] = 5;
-G2L["39"]["BackgroundTransparency"] = 0.98;
+G2L["45"] = Instance.new("ScrollingFrame", G2L["27"]);
+G2L["45"]["Visible"] = false;
+G2L["45"]["Active"] = true;
+G2L["45"]["BorderSizePixel"] = 0;
+G2L["45"]["BackgroundColor3"] = Color3.fromRGB(15, 54, 255);
+G2L["45"]["Name"] = [[Category 5]];
+G2L["45"]["Size"] = UDim2.new(0, 627, 0, 368);
+G2L["45"]["ScrollBarImageColor3"] = Color3.fromRGB(139, 8, 172);
+G2L["45"]["Position"] = UDim2.new(0.27771, 0, 0.12443, 0);
+G2L["45"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["45"]["ScrollBarThickness"] = 5;
+G2L["45"]["BackgroundTransparency"] = 0.98;
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 6
-G2L["3a"] = Instance.new("ScrollingFrame", G2L["27"]);
-G2L["3a"]["Visible"] = false;
-G2L["3a"]["Active"] = true;
-G2L["3a"]["BorderSizePixel"] = 0;
-G2L["3a"]["BackgroundColor3"] = Color3.fromRGB(15, 54, 255);
-G2L["3a"]["Name"] = [[Category 6]];
-G2L["3a"]["Size"] = UDim2.new(0, 524, 0, 352);
-G2L["3a"]["ScrollBarImageColor3"] = Color3.fromRGB(139, 8, 172);
-G2L["3a"]["Position"] = UDim2.new(0.27771, 0, 0.12443, 0);
-G2L["3a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3a"]["ScrollBarThickness"] = 5;
-G2L["3a"]["BackgroundTransparency"] = 0.98;
+G2L["46"] = Instance.new("ScrollingFrame", G2L["27"]);
+G2L["46"]["Visible"] = false;
+G2L["46"]["Active"] = true;
+G2L["46"]["BorderSizePixel"] = 0;
+G2L["46"]["BackgroundColor3"] = Color3.fromRGB(15, 54, 255);
+G2L["46"]["Name"] = [[Category 6]];
+G2L["46"]["Size"] = UDim2.new(0, 627, 0, 368);
+G2L["46"]["ScrollBarImageColor3"] = Color3.fromRGB(139, 8, 172);
+G2L["46"]["Position"] = UDim2.new(0.27771, 0, 0.12443, 0);
+G2L["46"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["46"]["ScrollBarThickness"] = 5;
+G2L["46"]["BackgroundTransparency"] = 0.98;
 
 
 -- StarterGui.Altryum Framework V1.Main UI.Parameter
-G2L["3b"] = Instance.new("LocalScript", G2L["2"]);
-G2L["3b"]["Name"] = [[Parameter]];
+G2L["47"] = Instance.new("LocalScript", G2L["2"]);
+G2L["47"]["Name"] = [[Parameter]];
 
 
 -- StarterGui.Altryum Framework V1.Minimized
-G2L["3c"] = Instance.new("Frame", G2L["1"]);
-G2L["3c"]["Visible"] = false;
-G2L["3c"]["BorderSizePixel"] = 0;
-G2L["3c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3c"]["Size"] = UDim2.new(0, 1533, 0, 796);
-G2L["3c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3c"]["Name"] = [[Minimized]];
-G2L["3c"]["BackgroundTransparency"] = 1;
+G2L["48"] = Instance.new("Frame", G2L["1"]);
+G2L["48"]["Visible"] = false;
+G2L["48"]["BorderSizePixel"] = 0;
+G2L["48"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["48"]["Size"] = UDim2.new(0, 1533, 0, 796);
+G2L["48"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["48"]["Name"] = [[Minimized]];
+G2L["48"]["BackgroundTransparency"] = 1;
 
 
 -- StarterGui.Altryum Framework V1.Minimized.TextButton
-G2L["3d"] = Instance.new("TextButton", G2L["3c"]);
-G2L["3d"]["BorderSizePixel"] = 0;
-G2L["3d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3d"]["TextSize"] = 14;
-G2L["3d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["3d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["3d"]["Size"] = UDim2.new(0, 66, 0, 58);
-G2L["3d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["3d"]["Position"] = UDim2.new(0.02621, 0, 0.03668, 0);
+G2L["49"] = Instance.new("TextButton", G2L["48"]);
+G2L["49"]["BorderSizePixel"] = 0;
+G2L["49"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["49"]["TextSize"] = 14;
+G2L["49"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["49"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["49"]["Size"] = UDim2.new(0, 66, 0, 58);
+G2L["49"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["49"]["Position"] = UDim2.new(0.02621, 0, 0.03668, 0);
 
 
 -- StarterGui.Altryum Framework V1.Minimized.TextButton.minimized button
-G2L["3e"] = Instance.new("LocalScript", G2L["3d"]);
-G2L["3e"]["Name"] = [[minimized button]];
+G2L["4a"] = Instance.new("LocalScript", G2L["49"]);
+G2L["4a"]["Name"] = [[minimized button]];
 
 
 -- StarterGui.Altryum Framework V1.LocalScript
-G2L["3f"] = Instance.new("LocalScript", G2L["1"]);
+G2L["4b"] = Instance.new("LocalScript", G2L["1"]);
 
 
 
@@ -797,8 +908,151 @@ local script = G2L["25"];
 end;
 task.spawn(C_25);
 -- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.ToggleSlider.ToggleScript
-local function C_30()
-local script = G2L["30"];
+local function C_2e()
+local script = G2L["2e"];
+	local background = script.Parent:WaitForChild("Background")
+	local circle = background:WaitForChild("Circle")
+	local toggled = false
+	local runLoop
+	
+	local function extendHitboxes()
+		for _, titan in pairs(workspace:WaitForChild("Titans"):GetChildren()) do
+			local hitboxes = titan:FindFirstChild("Hitboxes")
+			if hitboxes then
+				local hit = hitboxes:FindFirstChild("Hit")
+				if hit then
+					local nape = hit:FindFirstChild("Nape")
+					if nape and nape:IsA("BasePart") then
+						nape.Size = Vector3.new(180, 180, 180)
+					end
+				end
+			end
+		end
+	end
+	
+	local function resetHitboxes()
+		for _, titan in pairs(workspace:WaitForChild("Titans"):GetChildren()) do
+			local hitboxes = titan:FindFirstChild("Hitboxes")
+			if hitboxes then
+				local hit = hitboxes:FindFirstChild("Hit")
+				if hit then
+					local nape = hit:FindFirstChild("Nape")
+					if nape and nape:IsA("BasePart") then
+						nape.Size = Vector3.new(5, 5, 5)
+					end
+				end
+			end
+		end
+	end
+	
+	local function updateToggle()
+		if toggled then
+			background.BackgroundColor3 = Color3.fromRGB(188, 188, 188)
+			circle:TweenPosition(UDim2.new(0, 40,-0.13, 2), "Out", "Quad", 0.2, true)
+			circle.BackgroundColor3 = Color3.fromRGB(138, 7, 171)
+	
+			runLoop = task.spawn(function()
+				while toggled do
+					extendHitboxes()
+					task.wait(0.1)
+				end
+			end)
+		else
+			background.BackgroundColor3 = Color3.fromRGB(188, 188, 188)
+			circle:TweenPosition(UDim2.new(0, -5,-0.13, 2), "Out", "Quad", 0.2, true)
+			circle.BackgroundColor3 = Color3.fromRGB(202, 10, 255)
+	
+			toggled = false
+			resetHitboxes()
+		end
+	end
+	
+	background.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			toggled = not toggled
+			updateToggle()
+		end
+	end)
+	
+	updateToggle()
+	
+end;
+task.spawn(C_2e);
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.ToggleSlider.ToggleScript
+local function C_39()
+local script = G2L["39"];
+	local background = script.Parent:WaitForChild("Background")
+	local circle = background:WaitForChild("Circle")
+	local toggled = false
+	local connection
+	
+	local function applyGreenToHitParts()
+		for _, titan in pairs(workspace:WaitForChild("Titans"):GetChildren()) do
+			local hitboxes = titan:FindFirstChild("Hitboxes")
+			if hitboxes then
+				local hit = hitboxes:FindFirstChild("Hit")
+				if hit then
+					for _, part in pairs(hit:GetDescendants()) do
+						if part:IsA("BasePart") then
+							part.Color = Color3.new(0, 1, 0)
+							part.Transparency = 0.7
+						end
+					end
+				end
+			end
+		end
+	end
+	
+	local function resetTransparency()
+		for _, titan in pairs(workspace:WaitForChild("Titans"):GetChildren()) do
+			local hitboxes = titan:FindFirstChild("Hitboxes")
+			if hitboxes then
+				local hit = hitboxes:FindFirstChild("Hit")
+				if hit then
+					for _, part in pairs(hit:GetDescendants()) do
+						if part:IsA("BasePart") then
+							part.Transparency = 1
+						end
+					end
+				end
+			end
+		end
+	end
+	
+	local function updateToggle()
+		if toggled then
+			background.BackgroundColor3 = Color3.fromRGB(188, 188, 188)
+			circle:TweenPosition(UDim2.new(0, 40,-0.13, 2), "Out", "Quad", 0.2, true)
+			circle.BackgroundColor3 = Color3.fromRGB(138, 7, 171)
+	
+			connection = game:GetService("RunService").RenderStepped:Connect(applyGreenToHitParts)
+		else
+			background.BackgroundColor3 = Color3.fromRGB(188, 188, 188)
+			circle:TweenPosition(UDim2.new(0, -5,-0.13, 2), "Out", "Quad", 0.2, true)
+			circle.BackgroundColor3 = Color3.fromRGB(202, 10, 255)
+	
+			if connection then
+				connection:Disconnect()
+				connection = nil
+			end
+			resetTransparency()
+		end
+	end
+	
+	background.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 then
+			toggled = not toggled
+			updateToggle()
+		end
+	end)
+	
+	updateToggle()
+	
+end;
+task.spawn(C_39);
+-- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 2.ToggleSlider.ToggleScript
+local function C_3f()
+local script = G2L["3f"];
 	local background = script.Parent:WaitForChild("Background")
 	local circle = background:WaitForChild("Circle")
 	local toggled = false
@@ -827,11 +1081,11 @@ local script = G2L["30"];
 	local function updateToggle()
 		if toggled then
 			background.BackgroundColor3 = Color3.fromRGB(188, 188, 188)
-			circle:TweenPosition(UDim2.new(0, 40,-0.13, 0), "Out", "Quad", 0.2, true)
+			circle:TweenPosition(UDim2.new(0, 40,-0.13, 2), "Out", "Quad", 0.2, true)
 			circle.BackgroundColor3 = Color3.fromRGB(138, 7, 171)
 		else
 			background.BackgroundColor3 = Color3.fromRGB(188, 188, 188)
-			circle:TweenPosition(UDim2.new(0, -5,-0.13, 0), "Out", "Quad", 0.2, true)
+			circle:TweenPosition(UDim2.new(0, -5,-0.13, 2), "Out", "Quad", 0.2, true)
 			circle.BackgroundColor3 = Color3.fromRGB(202, 10, 255)
 		end
 	end
@@ -858,36 +1112,19 @@ local script = G2L["30"];
 	
 	
 end;
-task.spawn(C_30);
--- StarterGui.Altryum Framework V1.Main UI.Contain.Categories / Fonctionallity.CategoryFonctionality.Category 1.Button.ButtonScript
-local function C_34()
-local script = G2L["34"];
-	local button = script.Parent
-	local player = game.Players.LocalPlayer
-	local char = player.Character or player.CharacterAdded:Wait()
-	local hrp = char:WaitForChild("HumanoidRootPart")
-	
-	
-	
-	
-	button.MouseButton1Click:Connect(function()
-		--script
-		
-	end)
-end;
-task.spawn(C_34);
+task.spawn(C_3f);
 -- StarterGui.Altryum Framework V1.Main UI.Parameter
-local function C_3b()
-local script = G2L["3b"];
+local function C_47()
+local script = G2L["47"];
 	local frame = script.Parent -- Assure-toi que le script est un enfant de la Frame
 	
 	frame.Active = true
 	frame.Draggable = true
 end;
-task.spawn(C_3b);
+task.spawn(C_47);
 -- StarterGui.Altryum Framework V1.Minimized.TextButton.minimized button
-local function C_3e()
-local script = G2L["3e"];
+local function C_4a()
+local script = G2L["4a"];
 	local button = script.Parent
 	local MainGUI = button.Parent.Parent:FindFirstChild("Main UI")
 	local Minimized = button.Parent
@@ -900,10 +1137,10 @@ local script = G2L["3e"];
 	end
 	
 end;
-task.spawn(C_3e);
+task.spawn(C_4a);
 -- StarterGui.Altryum Framework V1.LocalScript
-local function C_3f()
-local script = G2L["3f"];
+local function C_4b()
+local script = G2L["4b"];
 	local guiObject = script.Parent
 	
 	guiObject.MouseEnter:Connect(function()
@@ -916,6 +1153,6 @@ local script = G2L["3f"];
 	
 	
 end;
-task.spawn(C_3f);
+task.spawn(C_4b);
 
 return G2L["1"], require;
